@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - by WanFathan - 101314</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!------------------------------------------------------------------------------------------->
+<div id="header"> <!-- Header Section (Home)-->
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="logo Image" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm Abang Muhamad <span>Fikrul</span><br>Amin Abang Nazaruddin</h1>
+        </div>
+    </div>
+</div><!-- End of Header Section -->
+
+<!------------------------------------------------------------------------------------------->
+<div id="about"> <!-- About Me Section -->
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="User handsome image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello! My name is Abang Muhamad Fikrul Amin Abang Nazaruddin, 
+                    and I am a dedicated Computer Science student with a passion for technology and innovation.
+                    I am currently pursuing my degree in Computer Science (Multimedia Computing), 
+                    where I have developed a strong foundation in programming, software development, and problem-solving skills.
+                </p>
+
+                <div class="tab-titles">
+                    <!-- NOTE: only change here is we pass event into opentab(...) -->
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                </div>
+
+                <!-- Skills Tab Content -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web App and Mobile App</li>
+                        <li><span>Networking</span><br>Troubleshooting and switch configuration</li>
+                        <li><span>Web Technologies</span><br>HTML, CSS, JavaScript</li>
+                        <li><span>Database Fundamentals</span><br>MySQL</li>
+                    </ul>
+                </div>
+
+                <!-- Experiance Tab Content -->
+                <div class="tab-contents" id="experiance">
+                    <ul>
+                        <li><span>July 2024 - August 2024</span><br>TECHNICAL SUPPORT TEAM — SUKMA MALAYSIA 2024 (WUSHU)<br>Supported WSLbroadcast team to ensure smooth live event coverage.</li>
+                        <li><span>June 2023 - July 2023</span><br>SKYWAVE COMPANY - ICT SUPPORT ASSISTANT<br>Provided basic hardware support, diagnostics, and minor installation tasks.</li>
+                        <li><span>January 2023 - April 2023</span><br>UNIQLO - RETAIL ASSOCIATE<br>Assisted customers with product selection and responded to inquiries.</li>
+                        <li><span>August 2022 - December 2022</span><br>UNIMAS CITDS — INTERNSHIP (NETWORK & CLOUD SUPPORT)<br>Assisted UNIMAS engineers with network troubleshooting across campus facilities.</li>
+                    </ul>
+                </div>
+
+                <!-- Education Tab Content -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>UNIVERSITY MALAYSIA OF SARAWAK (UNIMAS)</li>
+                        <li><span>2019 - 2022</span><br>POLITEKNIK KUCHING SARAWAK</li>
+                        <li><span>August 2022 - December 2022</span><br>SMK ST JOSEPH</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End of About Me Section -->
+
+<!------------------------------------------------------------------------------------------->
+<div id="projects"> <!-- My Projects Section -->
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/work-1.png" alt="Project Image 1">
+                <div class="layer">
+                    <h3>ART Application Design</h3>
+                    <p>This mobile application interface was designed using Figma and focuses on providing users with a simple, intuitive, and visually appealing experience for accessing art-related content.</p>
+                    <a href="https://www.figma.com/proto/sHjGkUlzXeQ5a2Yt4L1AU5/High-Fidelity-Prototype-Assgmnt--3?node-id=0-1&t=XeFra9O23SMlmr46-1">🔗Project-Link</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png" alt="Project Image 2">
+                <div class="layer">
+                    <h3>Bank App Design</h3>
+                    <p>A banking app prototype designed with accessibility in mind. High-contrast colours, readable text, and simple navigation improve usability for all users.</p>
+                    <a href="https://www.figma.com/proto/wfma6UXBMURIuNgwIMGich/RHB-ACCESSIBILITY?node-id=0-1&t=cCEqBYndaaiYcKSM-1">🔗Project-Link</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png" alt="Project Image 3">
+                <div class="layer">
+                    <h3>Unimas Now App Revamped</h3>
+                    <p>A redesigned version of the UNIMAS Now app with improved usability, modern UI, and cleaner navigation. Built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://www.figma.com/proto/CA9In4rq5dNR1yLn9RMxP4/Unimas-Now?node-id=1-5&t=ZTJePx4uLpJIJHMw-1">🔗Project-Link</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> <!-- End of My Projects Section -->
+
+<!------------------------------------------------------------------------------------------->
+<div id="contact"> <!-- Contact Me Section -->
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>✉️ fikrulamin6967@gmail.com</p>
+                <p>📞 +6012696767</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abang-muhamad-fikrul-amin-a-009aba9b">👜My LinkedIn</a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div><!-- End of Contact Me Section -->
+
+<div class="copyright">
+    <p>© 2024 by WanFathan - 101314. All rights reserved.</p>
+</div>
+
+<!------------------------------------------------------------------------------------------->
+<script src="script.js"></script>
+</body>
+</html>
