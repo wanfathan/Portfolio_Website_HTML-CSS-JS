@@ -2,7 +2,7 @@
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
 
-// FIX: added "event" parameter instead of relying on global event
+// "event" parameter 
 function opentab(event, tabname){
     for(tablink of tablinks){
         tablink.classList.remove("active-link");
@@ -66,3 +66,4 @@ window.addEventListener('scroll', function() {
 scrollBtn.addEventListener('click', function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 });
+
