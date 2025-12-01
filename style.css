@@ -1,3 +1,4 @@
+/* ===== CSS RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -95,11 +96,6 @@ nav ul li a:focus::after {
     color: var(--primary-color);
 }
 
-/* Mobile Menu Buttons - Hidden by default */
-#openMenu,
-#closeMenu {
-    display: none;
-}
 
 /* Scroll to Top Button */
 .scroll-top {
@@ -450,15 +446,15 @@ form textarea:focus {
     /*Project card overlay text on mobile */
     .work {
         max-width: 100%;
-        aspect-ratio: 4 / 5;  /* taller aspect ratio for mobile */
+        aspect-ratio: 4 / 5;  
     }
 
     .layer {
-        padding: 0 20px;      /* reduce padding so text isn’t squeezed */
+        padding: 0 20px;     
     }
 
     .layer h3 {
-        font-size: 1.2rem;    /* slightly smaller for mobile */
+        font-size: 1.2rem;    
     }
 
     .layer p {
