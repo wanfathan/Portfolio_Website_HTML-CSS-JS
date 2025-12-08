@@ -1,8 +1,7 @@
-/* ===== CSS RESET ===== */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 :root {
@@ -96,8 +95,7 @@ nav ul li a:focus::after {
     color: var(--primary-color);
 }
 
-
-/* Scroll to Top Button */
+/* Scroll to Top Button-js */ 
 .scroll-top {
     position: fixed;
     bottom: 20px;
@@ -129,7 +127,7 @@ nav ul li a:focus::after {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Allow move to the next line */
     gap: 5%;
     align-items: flex-start;
 }
@@ -203,13 +201,13 @@ nav ul li a:focus::after {
 
 .tab-contents ul li span {
     color: var(--primary-color);
-    font-size: 0.9375rem; /* 15px */
+    font-size: 0.9375rem; 
     font-weight: 500;
 }
 
 /* ===== PROJECTS SECTION ===== */
 #projects {
-    padding: 3.125rem 0; /* 50px */
+    padding: 3.125rem 0; 
 }
 
 .work-list {
@@ -298,6 +296,7 @@ nav ul li a:focus::after {
 
 .social-icons {
     margin-top: 1.875rem;
+    margin-bottom: 2.5rem;
 }
 
 .social-icons a {
@@ -446,11 +445,11 @@ form textarea:focus {
     /*Project card overlay text on mobile */
     .work {
         max-width: 100%;
-        aspect-ratio: 4 / 5;  
+        aspect-ratio: 4 / 5;
     }
 
     .layer {
-        padding: 0 20px;     
+        padding: 0 20px;      
     }
 
     .layer h3 {
