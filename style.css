@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box; 
 }
 
 :root {
@@ -34,7 +34,6 @@ body {
     overflow: hidden;
 }
 
-/* Navigation */
 nav {
     display: flex;
     align-items: center;
@@ -82,11 +81,11 @@ nav ul li a:focus::after {
 /* Header Text */
 .header-text {
     margin-top: 20%;
-    font-size: 1.875rem; /* 30px */
+    font-size: 1.875rem; 
 }
 
 .header-text h1 {
-    font-size: 3.75rem; /* 60px */
+    font-size: 3.75rem; 
     margin-bottom: 1.25rem;
     line-height: 1.2;
 }
@@ -121,7 +120,7 @@ nav ul li a:focus::after {
 
 /* ===== ABOUT SECTION ===== */
 #about {
-    padding: 5rem 0; /* 80px */
+    padding: 5rem 0; 
     color: var(--text-gray);
 }
 
@@ -147,7 +146,7 @@ nav ul li a:focus::after {
 }
 
 .sub-title {
-    font-size: 3.75rem; /* 60px */
+    font-size: 3.75rem; 
     color: var(--text-light);
     margin-bottom: 0.625rem;
     font-weight: 600;
@@ -156,7 +155,7 @@ nav ul li a:focus::after {
 /* Tabs */
 .tab-titles {
     display: flex;
-    gap: 3.125rem; /* 50px */
+    gap: 3.125rem; 
     margin: 1.25rem 0 2.5rem;
     flex-wrap: wrap;
 }
@@ -213,7 +212,7 @@ nav ul li a:focus::after {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2.5rem; /* 40px */
+    gap: 2.5rem; 
     margin-top: 3.125rem;
 }
 
@@ -474,3 +473,4 @@ form textarea:focus {
         max-width: 200px;
     }
 }
+
